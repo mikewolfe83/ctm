@@ -131,8 +131,9 @@ main{
 }
 
 .intro-video{
- display: flex;
-
+ margin-top: 3%;
+ margin-left: 28.5%;
+ 
 }
 
 main .main-intro h1{
