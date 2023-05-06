@@ -170,7 +170,7 @@ main  a{
 /* add in sections */
 
 .standing-desk{
-    height: 135vh;
+    height: 125vh;
 }
 
 .standing-desk h1{
@@ -178,28 +178,28 @@ main  a{
 }
 
 .standing-desk p{
-    margin: 10% 10%;
+    margin: 5%;
     font-size: 3vh;
     line-height: 4vh;
 
 }
 
 .workstation{
-    background-color: rgb(253, 252, 252);
+    background-color: rgb(238, 232, 232);
+    height: 120vh;
 
 }
 
 .workstation h1{
-    margin-left: 25%;
+    margin-left: 30%;
 }
 
 
 
 .workstation p{
     color: black;
-    margin: 10%;
+    margin: 5%;
     padding-bottom: 2%;
-    
     font-size: 3vh;
     line-height: 4vh;
 
@@ -216,7 +216,8 @@ main  a{
 
 /* footer section */
 
- .footer-primary{
+ .footer-primary p{
+    margin-left: 45%;;
     
 }
 
