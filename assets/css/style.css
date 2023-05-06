@@ -167,7 +167,51 @@ main  a{
     left:90vh;
 }
 
+/* add in sections */
 
+.standing-desk{
+    height: 135vh;
+}
+
+.standing-desk h1{
+    margin-left: 20%;
+}
+
+.standing-desk p{
+    margin: 10% 10%;
+    font-size: 3vh;
+    line-height: 4vh;
+
+}
+
+.workstation{
+    background-color: rgb(253, 252, 252);
+
+}
+
+.workstation h1{
+    margin-left: 25%;
+}
+
+
+
+.workstation p{
+    color: black;
+    margin: 10%;
+    padding-bottom: 2%;
+    
+    font-size: 3vh;
+    line-height: 4vh;
+
+}
+
+
+.desk{
+    margin-top:3%;
+    margin-left: 35%;
+    height:20%;
+    width:30%;
+}
 
 
 /* footer section */
