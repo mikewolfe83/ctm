@@ -299,7 +299,7 @@ section  a{
 
     .navbar-brand{
         margin-top: 19vh;
-        margin-left: 28vh;
+        margin-left: 25vh;
         position: absolute;
        
 
@@ -339,7 +339,7 @@ section  a{
     }
 
     .main-intro h1{
-        margin-left: 8vh;
+        margin-left: 4vh;
     }
 
     .second-intro p{
@@ -354,6 +354,18 @@ section  a{
     footer .navbar-links{
         flex-direction: column ;
         align-items: flex-start;
+    }
+
+    .standing-desk h1{
+        font-size: 3vh;
+    }
+
+    .workstation h1{
+        font-size: 4vh;
+    }
+
+    .workstation p{
+        font-size: 2vh;
     }
 
    
