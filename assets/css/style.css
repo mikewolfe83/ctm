@@ -23,7 +23,7 @@ main {
 }
 
 .navbar h1{
-    color: crimson;
+    color: rgb(238, 231, 233);
 }
 
   .brand-title{
@@ -179,7 +179,7 @@ main  a{
 /* add in sections */
 
 .standing-desk{
-    height: 125vh;
+    height: 110vh;
 }
 
 .standing-desk h1{
@@ -260,7 +260,8 @@ section h1{
     -webkit-text-stroke:rgb(8, 8, 8) .01em;
     margin-left: 10%;
     margin-right: 10%;
-    
+    height:100%;
+    margin-top: -2%;
 }
 
 section  a{
@@ -282,7 +283,7 @@ section  a{
     /* left:90vh; 
 } */ 
 
-@media(max-width:750px){
+@media(max-width:768px){
     .burger{
         display:flex;
         /* margin-right:35vh; */
@@ -349,4 +350,52 @@ section  a{
     .intro-video{
         display: none;
     }
-}
+
+    footer .navbar-links{
+        flex-direction: column ;
+        align-items: flex-start;
+    }
+
+   
+}  /*end of mobile */
+
+@media screen and (min-width:769px) and (max-width:1130px){
+
+
+    body{
+        background-color: rgb(134, 37, 24);
+    }
+
+    .standing-desk{
+        height:75vh;
+    }
+
+    .standing-desk h1{
+        font-size: 5vh;
+    }
+
+    .standing-desk p{
+        font-size:2vh ;
+    }
+
+    .workstation{
+        height:100vh;
+    }
+     
+    .workstation h1{
+        font-size: 5vh;
+    }
+    .workstation p{
+        font-size: 2vh;
+    }
+
+} /*end of Tablet */
+
+@media screen and (min-width:1140px) and (max-width:2160px){
+
+    body{
+        background-color: firebrick;
+    }
+
+
+}/*end of Desktop */
