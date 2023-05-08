@@ -409,5 +409,9 @@ section  a{
         background-color: firebrick;
     }
 
+    .second-intro p{
+        margin-top: .1vh;
+    }
+
 
 }/*end of Desktop */
