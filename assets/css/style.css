@@ -31,6 +31,17 @@ main {
     margin: 1.5rem;
   }
 
+  .nav-button{
+    text-decoration: none;
+  }
+
+  .nav-button :hover{
+    background-color: crimson;
+    
+  }
+
+
+
  .navbar-links ul{
     margin:0;
     padding:0;
