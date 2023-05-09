@@ -103,6 +103,7 @@ a{
 
 }
 
+/* buttons */
 
 
 
@@ -264,6 +265,9 @@ section h1{
     margin-top: -2%;
 }
 
+.second-intro a{
+  margin-left:112vh;
+}
 section  a{
     font-size: 28px;
     display:block;
@@ -273,6 +277,14 @@ section  a{
     text-decoration: none;
     border-radius: 10px;
     
+}
+
+#wufoo-z18iy62a00se9ir{
+    height: 100vh;
+    background-color: rgb(75, 79, 82);
+    margin: 10% 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 /* main intro section */
